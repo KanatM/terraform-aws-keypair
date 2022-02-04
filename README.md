@@ -11,7 +11,7 @@ module "dev" {
 output "region" {
     value = module.dev.region  
 }
-output "ky_name" {
+output "key_name" {
     value = module.dev.key_name
   
 }
